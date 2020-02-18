@@ -16,13 +16,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .form {
   margin: 10px auto;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
+  font-size: large;
 }
 
 h1 {
@@ -31,4 +32,8 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+input {
+  font-size: large;
 }
