@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+body {
+  font-family: sans-serif;
+}
+
 li {
   background-color: #3497DB;
   color: white;
@@ -36,4 +41,9 @@ a {
 
 input {
   font-size: large;
+}
+
+.results {
+  text-align: center;
+  box-shadow: 1px 3px lightgrey;
 }
